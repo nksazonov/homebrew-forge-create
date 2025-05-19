@@ -1,18 +1,3 @@
-# Nksazonov Forge-create
+# Homebrew forge-create
 
-## How do I install these formulae?
-
-`brew install nksazonov/forge-create/<formula>`
-
-Or `brew tap nksazonov/forge-create` and then `brew install <formula>`.
-
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "nksazonov/forge-create"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+A homebrew tap repo for a `forge-create` command wrapper around Foundry's `forge create` that automatically saves deployment information to organized JSON files.
