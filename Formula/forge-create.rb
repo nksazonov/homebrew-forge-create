@@ -1,8 +1,8 @@
 class ForgeCreate < Formula
   desc "Tool to create and save Foundry deployments"
   homepage "https://github.com/nksazonov/forge-create"
-  url "https://github.com/nksazonov/forge-create/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "fb3c1e02eb216dfde1c2b3b42dab60a824ad7167e6456da77ed23ef9b88a0923"
+  url "https://github.com/nksazonov/forge-create/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "a3b0ba34fa3739008a3ce2db88e9bd218ff871330fed3d878a2b464d04df847d"
   license "MIT"
 
   depends_on "foundry"
@@ -21,6 +21,6 @@ class ForgeCreate < Formula
   end
 
   test do
-    assert_match "v0.1.0", shell_output("bin/forge-create --version")
+    assert_match "v0.1.1", shell_output("bin/forge-create --version")
   end
 end
